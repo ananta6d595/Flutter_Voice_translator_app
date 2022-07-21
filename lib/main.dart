@@ -364,7 +364,7 @@ class SessionOptionsWidget extends StatelessWidget {
         children: <Widget>[
           Row(
             children: [
-              Text('SpeechLanguage: '),
+              Text('Language: '),
               DropdownButton<String>(
                 onChanged: (selectedVal) => switchSpeechLang(selectedVal),
                 value: currentLocaleId,
